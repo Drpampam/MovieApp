@@ -1,0 +1,1 @@
+import MyText from "./atoms/MyText";
