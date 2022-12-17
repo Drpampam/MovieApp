@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import MyText from '../atoms/MyText'
 
@@ -14,7 +14,6 @@ const SearchStyle = styled.div`
 `
 
 const Search = ({category, setCategory}) => {
-    // const [form, setForm] useState("");
 
 const handleChange = (e) =>{
     setCategory(e.target.value)

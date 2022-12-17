@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import Banner from './components/molecules/Banner';
 import NavBar from './components/molecules/NavBar';
 import axios from 'axios';
-import { useState,useCallback, useEffect} from 'react';
+import { useState,useCallback} from 'react';
 
 const AppStyle = styled.div`
   
@@ -38,7 +38,7 @@ const getMovie = useCallback(async() => {
   },
   [movies,category],
 )
-
+getMovie()
 // useEffect(() => {
 // getMovie();
 
